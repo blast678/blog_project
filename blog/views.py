@@ -26,7 +26,7 @@ def starting_page(request):
 #  blog=list(blogs.keys());
 #     return render(request,"blog/index.html")
 def posts(request):
-    pass
+    return render(request,"blog/all-posts.html")
 def post_detail(request):
     pass
 # Create your views here.
